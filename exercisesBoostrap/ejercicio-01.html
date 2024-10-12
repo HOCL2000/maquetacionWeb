@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild & Wacky Vegetables</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .favorites {
+      margin-top: 20px;
+    }
+    .vegetable-header {
+      margin-top: 20px;
+    }
+    .alert-box {
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .veggie-table {
+      margin-top: 20px;
+    }
+    .veggie-images {
+      margin-top: 20px;
+    }
+    .really-informative {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <h4 class="favorites">Some Favorites</h4>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active">Celery Root</a>
+        <a href="#" class="list-group-item list-group-item-action">Spaghetti Squash</a>
+        <a href="#" class="list-group-item list-group-item-action">Killer Mushrooms</a>
+      </div>
+      <button class="btn btn-primary mt-3">Search Recipes</button>
+    </div>
+    
+    <div class="col-md-9">
+      <!-- Alert Box -->
+      <div class="alert-box">
+        Uh oh! Have you had your daily dose of veggies today??
+      </div>
+      
+      <div class="vegetable-header">
+        <h1>Wild & Wacky Vegetables</h1>
+        <p>The beet is the most intense of vegetables...</p>
+        <p><em>Tom Robbins</em></p>
+      </div>
+
+      <h4>Some diseases</h4>
+      <table class="table veggie-table">
+        <thead>
+          <tr>
+            <th>Veggie</th>
+            <th>Disease</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Beets</td>
+            <td>Beeturia</td>
+          </tr>
+          <tr>
+            <td>Carrots</td>
+            <td>Carotenosis</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="row veggie-images">
+        <div class="col-md-4">
+          <img src="https://draxe.com/wp-content/uploads/2018/04/DrAxeBeetBenefitsHeader.jpg" class="img-fluid ratio ratio-4x3 object-fit-cover border rounded" alt="Beets">
+          <h5>Beets</h5>
+          <p>Careful not to get your hands dirty.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://images.newscientist.com/wp-content/uploads/2023/09/28104856/SEI_173654026.jpg?width=600" class="img-fluid ratio ratio-4x3 object-fit-cover border rounded" alt="Carrots">
+          <h5>Carrots</h5>
+          <p>Not sticks, can motivate.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://www.wholesomeyum.com/wp-content/uploads/2021/04/wholesomeyum-Sauteed-Asparagus-4.jpg" class="img-fluid ratio ratio-4x3 object-fit-cover border rounded" alt="Asparagus">
+          <h5>Asparagus</h5>
+          <p>Spears, spears, spears.</p>
+        </div>
+      </div>
+
+      <div class="really-informative">
+        <h4>Really informative info</h4>
+        <p>Kale cronut marzipan seitan mustard...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

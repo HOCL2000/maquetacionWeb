@@ -1,0 +1,36 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #800080;
+    width: 100%;
+    color: white;
+}
+
+
+section{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    place-content: center;
+    gap: 10px;
+    place-items: center;
+    max-width: 98%;
+}
+
+article{
+    background-color: #00FFFF;
+}

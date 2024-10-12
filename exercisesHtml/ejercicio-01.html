@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="display: flex; flex-direction: column;">
+        <h1>Travel reservation form</h1>
+        <h2>* denotes mandatory</h2>
+
+        <label style="display: flex; flex-direction: column;">
+            Full name*:
+            <input type="text" style="max-width: 200px;" placeholder="FirstName LastName">
+        </label>
+        <label style="display: flex; flex-direction: column;">
+            Email addres*:
+            <input type="text" style="max-width: 200px;" placeholder="EMAIL_ADDRESS">
+        </label>
+        <label for="" style="display:  flex; flex-direction: column;">
+            Seleect tour package* :
+            <select style="max-width: 100px;">
+                <option value="Goa">Goa</option>
+            </select>
+        </label>
+        <label style="display: flex; flex-direction: column;">
+            Arrival date*:
+            <input type="text" style="max-width: 200px;" placeholder="m/d/y">
+        </label>
+        <label style="display: flex; flex-direction: column;">
+            Number of persons*:
+            <input type="text" style="max-width: 200px;" placeholder="UNKNOWN_TYPE">
+        </label>
+        <div style="display: flex; flex-direction: column;">
+            What would you want to avail?*:
+            <label for="">
+                Boarding<input type="checkbox" style="max-width: 200px;" placeholder="UNKNOWN_TYPE">
+            </label>
+            <label for="">
+                Fooding<input type="checkbox" style="max-width: 200px;" placeholder="UNKNOWN_TYPE">
+            </label>
+            <label for="">
+                Sight seeing<input type="checkbox" style="max-width: 200px;" placeholder="UNKNOWN_TYPE">
+            </label>
+        </div>
+        <label style="display: flex; flex-direction: column;">
+            Discout Coupon code:
+            <input type="text" style="max-width: 200px;" placeholder="UNKNOWN_TYPE">
+        </label>
+
+        <div style="display: flex; flex-direction: column;">
+            Terms and conditions*:
+            <div>
+                <label for="">
+                    I agree<input type="radio" style="max-width: 200px;" placeholder="UNKNOWN_TYPE">
+                </label>
+                <label for="">
+                    I disagree<input type="radio" style="max-width: 200px;" placeholder="UNKNOWN_TYPE">
+                </label>
+            </div>
+
+        </div>
+        <button style="max-width: 180px;">Complete reservation</button>
+    </form>
+</body>
+</html>
